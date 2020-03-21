@@ -11,8 +11,8 @@ namespace RestApiUdemy.Controllers
     [ApiController]
     public class CalculatorController : ControllerBase
     {
-        //GET API/VALUE/5
-        [HttpGet("{firstNumber}/{secondNumber}")]
+        //GET API/VALUE/sum/5/5
+        [HttpGet("sum/{firstNumber}/{secondNumber}")]
         public IActionResult Sum(string firstNumber, string secondNumber)
         {
 
@@ -24,6 +24,21 @@ namespace RestApiUdemy.Controllers
 
             return BadRequest("Invalid Imput");
         }
+
+        //GET API/VALUE/Subtraction/5/5
+        [HttpGet("Subtraction/{firstNumber}/{secondNumber}")]
+        public IActionResult Subtraction(string firstNumber, string secondNumber)
+        {
+
+            if (IsNumeric(firstNumber) && IsNumeric(secondNumber))
+            {
+                var subtraction = convertToDecimal(firstNumber) - convertToDecimal(secondNumber);
+                return Ok(subtraction.ToString());
+            }
+
+            return BadRequest("Invalid Imput");
+        }
+
 
         private decimal convertToDecimal(string number)
         {
