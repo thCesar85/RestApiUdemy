@@ -9,7 +9,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using RestApiUdemy.Services;
+using RestApiUdemy.Services.Implementation;
+using RestApiUdemy.Model.Context;
 using Microsoft.Extensions.Logging;
+using Microsoft.EntityFrameworkCore;
 
 namespace RestApiUdemy
 {
@@ -25,7 +29,14 @@ namespace RestApiUdemy
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var connection = Configuration["MySqlConnection:MySqlConnectionString"];
+
+            services.AddDbContext<MySqlContext>(options => options.UseMySql(connection));
+
             services.AddControllers();
+
+            // injeção de dependencia
+            services.AddScoped<IPersonService, PersonServiceImpl>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

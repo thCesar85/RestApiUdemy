@@ -89,6 +89,16 @@ F:\Projetos\RestApiUdemy\RestApiUdemy\RestApiUdemy\bin\Debug\netcoreapp3.1\ru\Mi
 F:\Projetos\RestApiUdemy\RestApiUdemy\RestApiUdemy\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 F:\Projetos\RestApiUdemy\RestApiUdemy\RestApiUdemy\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 F:\Projetos\RestApiUdemy\RestApiUdemy\RestApiUdemy\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Projetos\RestApiUdemy\RestApiUdemy\RestApiUdemy\obj\Debug\netcoreapp3.1\RestApiUdemy.csproj.CopyComplete
+F:\Projetos\RestApiUdemy\RestApiUdemy\RestApiUdemy\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+F:\Projetos\RestApiUdemy\RestApiUdemy\RestApiUdemy\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+F:\Projetos\RestApiUdemy\RestApiUdemy\RestApiUdemy\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+F:\Projetos\RestApiUdemy\RestApiUdemy\RestApiUdemy\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Projetos\RestApiUdemy\RestApiUdemy\RestApiUdemy\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+F:\Projetos\RestApiUdemy\RestApiUdemy\RestApiUdemy\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+F:\Projetos\RestApiUdemy\RestApiUdemy\RestApiUdemy\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
+F:\Projetos\RestApiUdemy\RestApiUdemy\RestApiUdemy\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
+F:\Projetos\RestApiUdemy\RestApiUdemy\RestApiUdemy\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.Design.dll
+F:\Projetos\RestApiUdemy\RestApiUdemy\RestApiUdemy\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.Design.dll
 F:\Projetos\RestApiUdemy\RestApiUdemy\RestApiUdemy\obj\Debug\netcoreapp3.1\RestApiUdemy.csproj.CoreCompileInputs.cache
 F:\Projetos\RestApiUdemy\RestApiUdemy\RestApiUdemy\obj\Debug\netcoreapp3.1\RestApiUdemy.MvcApplicationPartsAssemblyInfo.cache
-F:\Projetos\RestApiUdemy\RestApiUdemy\RestApiUdemy\obj\Debug\netcoreapp3.1\RestApiUdemy.csproj.CopyComplete
